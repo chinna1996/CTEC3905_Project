@@ -5,4 +5,4 @@ various html,css and JavaScript skills...
 Image folder
 Html pages
 Css pages
-Js folder.
+Js folder

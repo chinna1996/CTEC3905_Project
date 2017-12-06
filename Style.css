@@ -1,11 +1,11 @@
-@media only screen and (min-width: 700px) 
+
 
 body {
   margin: 0;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   margin: 0;
-  font-family: 'Work Sans',
+  font-family: 'Courier Header',
 }
 
 img {
@@ -16,31 +16,107 @@ width: 74%;
 opacity: 1%;
 }
 
-.Strung {
-position: absolute;
-top: 80px;
-left: 40%;
-display: block;
-margin: auto;
-height:30%;
-width: 20%;
 
+
+
+
+
+
+
+
+/* Navigation bar*/
+
+
+
+
+ul{
+  margin:0;
+  padding:0;
 }
 
-<<<<<<< HEAD
+.button_1{
+  height:38px;
+  background:#ffffff;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#000000;
+  float: left 30px;
+}
 
-
-/* Contain for main background image */
-
-#main{
-  min-height:400px;
-  background:(/images/logo1.png) no-repeat 0 -400px;
+.dark{
+  padding:15px;
+  background:#35424a;
   color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
 }
 
+/* Header **/
+header{
+  background:#E2CDC8;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#ffffff 1px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-family: E2CDC8;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#;
+  font-weight:bold;
+  font-family: 'Courier Header';
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+/* Media Queries */
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
 
 /* Newsletter styling */
 #newsletter{
+  position: relative;
   padding:15px;
   color:#000000;
   background:#C19386;
@@ -62,220 +138,16 @@ width: 20%;
   width:250px;
 }
 
+/** video */
 
-
-
-
-
-
-
-
-
-
-
-
-
-header::after {
-  content: '';
-  display: table;
-  clear: both;
-}
-
-.logo {
-  float: left;
-  padding: 10px 0;
-}
-
-nav {
-  
-  background-color: #C19386;
-  overflow: hidden;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-  opacity: 0.5;
-}
-
-  
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-nav li {
-  display: inline-block;
-  margin-left: 70px;
-  padding-top: 23px;
-
-  position: relative;
-}
-
-nav a {
-  color: #444;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 14px;
-}
-
-nav a:hover {
-  color: #000;
-}
-
-nav a::before {
-  content: '';
-  display: block;
-  height: 5px;
-  background-color: #444;
-
-  position: absolute;
-  top: 0;
-  width: 0%;
-
-  transition: all ease-in-out 250ms;
-}
-
-nav a:hover::before {
-  width: 100%;
-}
-
-div.tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-}
-
-/* Style the buttons inside the tab */
-div.tab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-    font-size: 17px;
-}
-
-/* Change background color of buttons on hover */
-div.tab button:hover {
-    background-color: #ddd;
-}
-
-/* Create an active/current tablink class */
-div.tab button.active {
-    background-color: #ccc;
-}
-
-/* Style the tab content */
-.tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
-}
-=======
-header::after {
-  content: '';
-  display: table;
-  clear: both;
-}
-
-.logo {
-  float: left;
-  padding: 10px 0;
-}
-
-nav {
-  
-  
-  overflow: hidden;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-}
-
-  
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-nav li {
-  display: inline-block;
-  margin-left: 70px;
-  padding-top: 23px;
-
-  position: relative;
-}
-
-nav a {
-  color: #444;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 14px;
-}
-
-nav a:hover {
-  color: #000;
-}
-
-nav a::before {
-  content: '';
-  display: block;
-  height: 5px;
-  background-color: #444;
-
-  position: absolute;
-  top: 0;
-  width: 0%;
-
-  transition: all ease-in-out 250ms;
-}
-
-nav a:hover::before {
-  width: 100%;
-}
-
-div.tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-}
-
-/* Style the buttons inside the tab */
-div.tab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-    font-size: 17px;
-}
-
-/* Change background color of buttons on hover */
-div.tab button:hover {
-    background-color: #ddd;
-}
-
-/* Create an active/current tablink class */
-div.tab button.active {
-    background-color: #ccc;
-}
-
-/* Style the tab content */
-.tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
+.video {
+	position: 560px;
+	height: 315px;
+	position: absolute; /* positions out of the flow, but according to the nearest parent */
+    top: 0; right: 0; /* confuse it i guess */
+    bottom: 0; left: 0;
+    margin: auto;
+	
 }
 
 
@@ -284,4 +156,97 @@ div.tab button.active {
 
 
 
->>>>>>> 0c3e6e429e2765fd4730fb7fb67497b3e7c5cfc2
+
+
+
+
+
+
+
+
+
+
+
+
+/* About page slider*/
+
+.containerA {
+	
+	height: 450px;
+	width: 900px;
+	margin: 20px auto;
+	position:relative;
+	
+}
+
+#imgA {
+	
+	height: 550px;
+	width: 900px;
+	position: absolute;
+	
+}
+
+#left_holder {
+	
+	height: 450px;
+	width: 100px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+
+#right_holder {
+	
+	height: 450px;
+	width: 100px;
+	position:absolute;
+	right:0px;
+	top:0px;
+}
+
+.left {
+	height: 50px;
+	width: 50px;
+	position:absolute;
+	top: 40%;
+	left: 0px;
+
+}
+
+.right {
+	height: 50px;
+	width: 50px;
+	position:absolute;
+	top: 40%;
+	right: 0px;
+
+}
+
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    border-top: black 3px solid;
+    color: #ffffff;
+    background-color: #628395;
+    text-align: center;
+}
+
+.social {
+ 	list-style-type:  none;
+ 	text-align: center;
+ }
+ .social li {
+ 	display: inline;
+ }
+ .social i{
+ 	font-size: 460%;
+ 	margin: 1%;
+ 	padding: 1% 1% 1% 1%;
+ 	color: #C3D7DF;
+ }
+ .social i:hover {
+ 	color: #F5F5F5
+}
+/* End footer*/
