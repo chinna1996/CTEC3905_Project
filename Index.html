@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<body>
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initak-scale=1, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <title>Rubio</title>
   <link rel="stylesheet" href="Style.css">
- 
-</head>
+  </head>
+
+<body>
 <header>
       <div class="container">
-        <div id="branding">
+        <div id="logo">
           <h1><span class="highlight">Rubio</span></h1>
         </div>
         <nav>
           <ul>
             <li class="current"><a href="index.html">Home</a></li>
              <li><a href="About.html">About</a></li>
-			 <li><a href="Events.html">Latest Events</a></li>
              <li><a href="Contact.html">Contact</a></li>
             
           </ul>
@@ -27,28 +27,31 @@
 <header>
 <div>
 
-	<section> 
-	
-	<div class="video">
-     <iframe width="600" height="300" src="https://www.youtube.com/embed/TslmWRHgSKQ" frameborder="0" allowfullscreen=""></iframe>
+
+  <div class="slider" id="main-slider"><!-- outermost container element -->
+	<div class="slider-wrapper"><!-- innermost wrapper element -->
+		<img src="images/rubio.png" alt="First" class="slide" /><!-- slides -->
+		<img src="images/rubiob.jpg" alt="Second" class="slide" />
+		<img src="images/w1.jpg" alt="Third" class="slide" />
+		<img src="images/1.jpg" alt="Fourth" class="slide" />
+		<img src="images/3.jpg" alt="Fifth" class="slide" />
+		<img src="images/w4.jpg" alt="Sixth" class="slide" />
+		<img src="images/w2.jpg" alt="Seventh" class="slide" />
+		
+	</div>
 </div>
+  
+    <script  src="Js/index.js"></script>
+
+</body>
+
+
+
+
 
  
- <div class="container">
-      <div class="slider">
-        <img src="images/rubiob.jpg" class="img1" style="width:100%">
-      </div>
-    
+
 	
-      <div class="slider">
-        <img src="images/w3.png" class= "img3" style="width:100%">
-      </div>
-    </div>
- 
- 
-    </section>
- 
-
 <footer>
 <section id="newsletter">
       <div class="container">
@@ -61,8 +64,6 @@
   
 	
 	
-	
-	
     <ul class="social">
       <li><a href="https://www.facebook.com/rubioband/" target="_blank"><i class="fa fa-facebook" id="facebook"></i></a></li>
       <li><a href="https://twitter.com/rubioband" target="_blank"><i class="fa fa-twitter" id="twitter"></i></a></li>
@@ -72,10 +73,11 @@
     <p>
     </p>
   </footer>
-  <script type="text/javascript" src="javascript.js"></script> 
-  <!--Link to the Javascript file that controls the timer for the slideshow -->
+  
+  
   
   </section>
+	
 </body>
 </footer>
 
