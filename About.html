@@ -5,27 +5,49 @@
   <meta name="viewport" content="width=device-width, initak-scale=1, user-scalable=no" />
   <title>Rubio</title>
   <link rel="stylesheet" href="Style.css">
- 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-<header>
-      <div class="container">
-        <div id="logo">
-          <h1><span class="highlight">Rubio</span></h1>
-        </div>
-        <nav>
-          <ul>
-            <li class="current"><a href="index.html">Home</a></li>
-             <li><a href="About.html">About</a></li
-             <li><a href="Contact.html">Contact</a></li>
-            
-          </ul>
-        </nav>
-      </div>
-    </header>
 
+  <nav class="navbar">
+  <img src="images/logo1.png" class="logo1">
+    <span class="open-slide">
+      <a href="#" onclick="openSlideMenu()">
+        <svg width="30" height="30">
+            <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+            <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+            <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+        </svg>
+      </a>
+    </span>  
+  
+
+  </nav>
 	
+	<div id="side-menu" class="side-nav">
+    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+    <a href="Index.html">Home</a>
+    <a href="About.html">About</a>
+    <a href="Contact.html">Contact</a>
+	<a href="https://www.facebook.com/rubioband/" class="fa fa-facebook"></a>
+    <a href="https://twitter.com/rubioband" class="fa fa-twitter"></a>
+    <a href="https://www.youtube.com/channel/UClnVt3kYnKDFmW7xwOIT2kw" class="fa fa-youtube"></a>
+    </div>
+	
+	<script>
+    function openSlideMenu(){
+      document.getElementById('side-menu').style.width = '250px';
+      document.getElementById('main').style.marginLeft = '250px';
+    }
+
+    function closeSlideMenu(){
+      document.getElementById('side-menu').style.width = '0';
+      document.getElementById('main').style.marginLeft = '0';
+    }
+  </script>
+
+  
 	<section>
     <div id="googleMap" style="width:100%;height:400px;"></div> <!-- identifier for the google maps code -->
 
@@ -44,44 +66,18 @@
   </section>
 
 
+  
+
 </body>
-
-
-
-
-
-
-
 <footer>
-<section id="newsletter">
-      <div class="container">
-        <h1>Sign up to find out about latest events!</h1>
-        <form>
-          <input type="email" placeholder="Enter Email...">
-          <button type="submit" class="button_1">Subscribe</button>
-        </form>
-     
-  
-	
-	
-    <ul class="social">
-      <li><a href="https://www.facebook.com/rubioband/" target="_blank"><i class="fa fa-facebook" id="facebook"></i></a></li>
-      <li><a href="https://twitter.com/rubioband" target="_blank"><i class="fa fa-twitter" id="twitter"></i></a></li>
-      <li><a href="https://www.youtube.com/channel/UClnVt3kYnKDFmW7xwOIT2kw" target="_blank"><i class="fa fa-youtube" id="youtube"></i></a></li>
-      <li><a href="https://www.instagram.com/rubioband/?hl=en" target="_blank"><i class="fa fa-instagram" id="instagram"></i></a></li>
-    </ul>
-    <p>
-    </p>
-  </footer>
-  
-  
-  
-  </section>
-	
-</body>
-</footer>
+         <div class="footer">
+            
+            </div>
 
-</body>
+
+
+
+
 
 
 

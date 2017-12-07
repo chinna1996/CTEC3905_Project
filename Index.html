@@ -4,85 +4,103 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
   <title>Rubio</title>
   <link rel="stylesheet" href="Style.css">
+  <script src="Js/index.js"></script>
   </head>
-
+  
+ 
 <body>
-<header>
-      <div class="container">
-        <div id="logo">
-          <h1><span class="highlight">Rubio</span></h1>
-        </div>
-        <nav>
-          <ul>
-            <li class="current"><a href="index.html">Home</a></li>
-             <li><a href="About.html">About</a></li>
-             <li><a href="Contact.html">Contact</a></li>
-            
-          </ul>
-        </nav>
-      </div>
-    </header>
-<header>
+  <nav class="navbar">
+  <img src="images/logo1.png" class="logo1">
+    <span class="open-slide">
+      <a href="#" onclick="openSlideMenu()">
+        <svg width="30" height="30">
+            <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+            <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+            <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+        </svg>
+      </a>
+    </span>  
+  
+
+  </nav>
+
+  <div id="side-menu" class="side-nav">
+    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+    <a href="Index.html">Home</a>
+    <a href="About.html">About</a>
+    <a href="Contact.html">Contact</a>
+	<a href="https://www.facebook.com/rubioband/" class="fa fa-facebook"></a>
+    <a href="https://twitter.com/rubioband" class="fa fa-twitter"></a>
+    <a href="https://www.youtube.com/channel/UClnVt3kYnKDFmW7xwOIT2kw" class="fa fa-youtube"></a>
+    </div>
+
+
+  <script>
+    function openSlideMenu(){
+      document.getElementById('side-menu').style.width = '250px';
+      document.getElementById('main').style.marginLeft = '250px';
+    }
+
+    function closeSlideMenu(){
+      document.getElementById('side-menu').style.width = '0';
+      document.getElementById('main').style.marginLeft = '0';
+    }
+  </script>
+
+  
+
+
+
+
+
+
+
 <div>
 
 
   <div class="slider" id="main-slider"><!-- outermost container element -->
 	<div class="slider-wrapper"><!-- innermost wrapper element -->
-		<img src="images/rubio.png" alt="First" class="slide" /><!-- slides -->
-		<img src="images/rubiob.jpg" alt="Second" class="slide" />
-		<img src="images/w1.jpg" alt="Third" class="slide" />
-		<img src="images/1.jpg" alt="Fourth" class="slide" />
-		<img src="images/3.jpg" alt="Fifth" class="slide" />
-		<img src="images/w4.jpg" alt="Sixth" class="slide" />
-		<img src="images/w2.jpg" alt="Seventh" class="slide" />
+		<img src="images/rubio.png" width="960" height="320" alt="First" class="slide" /><!-- slides -->
+		<img src="images/rubiob.jpg" width="960" height="639"alt="Second" class="slide" />
+		<img src="images/w1.jpg" width="960" height="720" alt="Third" class="slide" />
+		<img src="images/1.jpg" width="960" height="640" alt="Fourth" class="slide" />
+		<img src="images/3.jpg" width="960" height="640" alt="Fifth" class="slide" />
+		<img src="images/w4.jpg" width="960" height="436" alt="Sixth" class="slide" />
+		<img src="images/w2.jpg" width="960" height="720" alt="Seventh" class="slide" />
 		
 	</div>
 </div>
-  
-    <script  src="Js/index.js"></script>
-
-</body>
-
-
-
-
-
  
+ <div class="first-block">
+<h1>
+ Rubio have been making music since the beginning of 2016 and with a released single, a string of published recordings and support slots with respected international artists such as Dorje, Closure in Moscow and Freeze The Atlantic this band is set to one trajectory; ascent. 
+ </h1>
+ <p>
+Rubio do not plan on letting up, this Birmingham band are born of a city rich with musical history and cultural diversity. This serves as a major influence and motivating factor in the bands music, live shows and energetic performance.
 
-	
+Rubio are ambient, Rubio are progressive, Rubio are heavy. One sure thing is that Rubio are not content with settling for standard procedure. It is their mission to challenge what it means to be at an underground rock show and to re-imagine how music is released, produced and consumed. Amongst all of the noise and saturation. Rubio intend to stand out.
+ </p>
+</div>
+
+<!-- FIRST BLOCK --> 	
+
+<!-- q 
+         <div id="first-block">
+           <iframe width="560" height="315" align="center" src="https://www.youtube.com/embed/PZc-xGp7Uhs" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+         </div>
+    
+-->
+</body>
 <footer>
-<section id="newsletter">
-      <div class="container">
-        <h1>Sign up to find out about latest events!</h1>
-        <form>
-          <input type="email" placeholder="Enter Email...">
-          <button type="submit" class="button_1">Subscribe</button>
-        </form>
-     
-  
-	
-	
-    <ul class="social">
-      <li><a href="https://www.facebook.com/rubioband/" target="_blank"><i class="fa fa-facebook" id="facebook"></i></a></li>
-      <li><a href="https://twitter.com/rubioband" target="_blank"><i class="fa fa-twitter" id="twitter"></i></a></li>
-      <li><a href="https://www.youtube.com/channel/UClnVt3kYnKDFmW7xwOIT2kw" target="_blank"><i class="fa fa-youtube" id="youtube"></i></a></li>
-      <li><a href="https://www.instagram.com/rubioband/?hl=en" target="_blank"><i class="fa fa-instagram" id="instagram"></i></a></li>
-    </ul>
-    <p>
-    </p>
-  </footer>
-  
-  
-  
-  </section>
-	
-</body>
-</footer>
-
-</body>
-
-
+         <div class="footer">
+            
+               <p>
+			   
+               </p>
+            </div>
 
 </html>
