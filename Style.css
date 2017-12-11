@@ -1,6 +1,8 @@
 body{
   font-family:"Arial", Serif;
   background-color:#ffffff;
+  color:#000;
+  opacity:1;
   overflow-x:hidden;
 }
 
@@ -43,6 +45,7 @@ body{
   top:0;
   left:0;
   background-color:#111;
+  
   opacity:0.9;
   overflow-x:hidden;
   padding-top:60px;
@@ -114,6 +117,7 @@ body{
 .slider-wrapper > .slide:first-child {
 	opacity: 1;
 }
+
 
 /* Navigation bar */
 
@@ -198,16 +202,10 @@ p {
 
 /** video */
 
-.video {
-	position: 560px;
-	height: 315px;
-	position: absolute; /* positions out of the flow, but according to the nearest parent */
-    top: 0; right: 0; /* confuse it i guess */
-    bottom: 0; left: 0;
-    margin: auto;
-	
+.second-block {
+	margin-left: 400px;
+	padding: 2px;
 }
-
 
 
 
@@ -262,6 +260,7 @@ ul#services li{
 	max-width: 1080px;
 	margin: 0 auto;
 	padding: 2% 2%;
+	margin-left: 15px;
 	
 }
 
@@ -354,3 +353,10 @@ ul#services li{
 }
 
 
+
+.form{
+	
+	text-align: left;
+	line-height: 50px;
+	
+}
