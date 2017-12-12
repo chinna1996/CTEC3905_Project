@@ -379,8 +379,18 @@ ul#services li{
 	
 }
 
-/* wikipedia api search  */
-.wiki {
-position: relative;	
-margin-left: 50px;
+/* contact page  */
+
+.form{
+position: relative;
+text-align: center; 
+	
+}
+
+
+
+.widget {
+position: relative;
+margin-top: 5px;	
+margin-left: 500px;
 }
