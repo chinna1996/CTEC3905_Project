@@ -5,7 +5,23 @@ body{
   opacity:1;
   overflow-x:hidden;
 }
+.logo1 {
+  -webkit-transition: all 0.7s ease;
+     -moz-transition: all 0.7s ease;      
+       -o-transition: all 0.7s ease;
+      -ms-transition: all 0.7s ease;
+          transition: all 0.7s ease;
+}
+	
+.logo1:hover {
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
 
+}
 .navbar{
   background-color:#E2E1E1;
   border-bottom: 6px solid gray;
@@ -119,10 +135,11 @@ body{
 }
 
 
+
 /* Navigation bar */
 
 fa {
-  
+  display:flex;
   padding: 20px;
   font-size: 30px;
   width: 30px;
@@ -203,10 +220,16 @@ p {
 /** video */
 
 .second-block {
-	margin-left: 400px;
+	
+	position: relative;
+	margin-left: 0px;
 	padding: 2px;
 }
-
+ 
+.second-block iframe {
+	width:100%;
+	
+}
 
 
 /* Boxes */
@@ -256,7 +279,7 @@ ul#services li{
 
 
 .gallery-section {
-	
+	position: relative;
 	max-width: 1080px;
 	margin: 0 auto;
 	padding: 2% 2%;
@@ -265,15 +288,14 @@ ul#services li{
 }
 
 .gallgrid {
+	position: relative;
 	margin: -80px 0 0 0;
 	padding: 0;
 	list-style:none;
 	display: block;
 	text-align: center;
-	width: 100%;
-	
+	width: 100%;	
 }
-
 
 .gallgrid:after {
 	clear: both;
@@ -333,8 +355,6 @@ ul#services li{
 }
 
 
-
-
 .bandm-info {
 	position: absolute;
 	width: inherit;
@@ -352,11 +372,15 @@ ul#services li{
 	line-height: 1.5;
 }
 
-
-
 .form{
 	
 	text-align: left;
 	line-height: 50px;
 	
+}
+
+/* wikipedia api search  */
+.wiki {
+position: relative;	
+margin-left: 50px;
 }
