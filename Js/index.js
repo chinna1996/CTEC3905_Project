@@ -1,10 +1,11 @@
 (function() {
-	
+	// create function slideshow
 	function Slideshow( element ) {
 		this.el = document.querySelector( element );
 		this.init();
 	}
 	
+	// initalise function to classes wrapper, slides
 	Slideshow.prototype = {
 		init: function() {
 			this.wrapper = this.el.querySelector( ".slider-wrapper" );
@@ -18,6 +19,7 @@
 			this.action();
 			this.stopStart();	
 		},
+		// for loop to populate the slides and effect 
 		_slideTo: function( slide ) {
 			var currentSlide = this.slides[slide];
 			currentSlide.style.opacity = 1;
