@@ -127,17 +127,15 @@ Markdown is totally new to me, this is the first time using it. Although it was 
 The API I used was the google maps api, I was able to change the longitude and get it to focus on the area my band were based in which was birmingham.
 
 
+#### New Learnings
 
-#### Styling the results
-
-
-New Learnings
 I learnt many new skills: the ability to create transitions and animations using -webkit and -moz transform. Furthermore the javascript code for implementing a toggle feature using an "addEventListener" to control the functionality was new to me. 
 
 Also the looping function created for transitioning the slide show for my home page, similar to the way I have previously used for loops in #C.
 
 
-Validation
+#### Validation
+
 [CSS errors](https://i.imgur.com/pdbcGPO.png)
 
 [CSS errors fixed](https://i.imgur.com/6Ki77Ab.png)
