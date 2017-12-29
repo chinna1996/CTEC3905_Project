@@ -360,6 +360,17 @@ section {
 .slider-wrapper > .slide:first-child {
 	opacity: 1;
 }
+
+.form{
+   display: block;	
+   line-height: 10px;
+}
+
+textarea {
+	width:150px;
+	
+}
+
 }
 /* END FIRST BREAKPOINT */
 
@@ -427,6 +438,14 @@ section {
 
 .slider-wrapper > .slide:first-child {
 	opacity: 1;
+}
+
+.form{
+   display: block;	
+   line-height: 10px;
+}
+textarea {
+	width: 300px;
 }
 }
 /* END SECOND BREAKPOINT */
