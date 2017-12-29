@@ -106,7 +106,7 @@ References
 [Git commits](https://i.imgur.com/I4tLOx1.png)
 
 
-####Handling Responsive Design & Mobile First
+Handling Responsive Design & Mobile First
 
 Using a pair of media queries would allow segments of the code to be altered when at specific break points in the code. For example I used min-wdith 500px and min-width 100px. Designed for Tablet and Desktop views.
 
@@ -119,11 +119,11 @@ Furthermore using the meta tag, this would allow the browser to recognize the si
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-####Learning & Understanding Markdown 
+Learning & Understanding Markdown 
 
 Markdown is totally new to me, this is the first time using it. Although it was tricky at first it allowed me to learn new skills. I also made a imgur account to then directly upload images to imgur. From there i was able to embed the link provided for the markdown file.
 
-####API & JSON - Wikipedia
+API & JSON - Wikipedia
 The API I used was the google maps api, I was able to change the longitude and get it to focus on the area my band were based in which was birmingham.
 
 
@@ -131,13 +131,13 @@ The API I used was the google maps api, I was able to change the longitude and g
 #### Styling the results
 
 
-####New Learnings
+New Learnings
 I learnt many new skills: the ability to create transitions and animations using -webkit and -moz transform. Furthermore the javascript code for implementing a toggle feature using an "addEventListener" to control the functionality was new to me. 
 
 Also the looping function created for transitioning the slide show for my home page, similar to the way I have previously used for loops in #C.
 
 
-#### 11. Validation
+Validation
 [CSS errors](https://i.imgur.com/pdbcGPO.png)
 
 [CSS errors fixed](https://i.imgur.com/6Ki77Ab.png)
@@ -146,12 +146,12 @@ Also the looping function created for transitioning the slide show for my home p
 
 [HTML Errors fixed](https://i.imgur.com/wRfYQwv.png)
 
-#### 12. Flex
 
 
-
-#### 13. References
+References
 https://www.w3schools.com/css/
+
 https://validator.w3.org/
+
 https://jigsaw.w3.org/css-validator/
 
