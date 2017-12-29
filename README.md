@@ -13,31 +13,31 @@ Harinder Matharu
 
  Marking Scheme
  
-Initial Designs (Wireframes Hand Drawn)
+ Initial Designs (Wireframes Hand Drawn)
  
-Git Commits, Development & Branching (Screenshots)
+ Git Commits, Development & Branching (Screenshots)
  
-User Testing / Usability
+ User Testing / Usability
  
-Handling Responsive Design & Mobile First
+ Handling Responsive Design & Mobile First
  
-Intelligent application of Information Architecture 
-and PARC
+ Intelligent application of Information Architecture 
+ and PARC
  
-Understanding Markdown 
+ Understanding Markdown 
 
-API & JSON - Wikipedia
+ API & JSON - Wikipedia
 
-New Learnings
+ New Learnings
 
-Validation
+ Validation
 
-Flexbox
+ Flexbox
  
-References
+ References
 
 ---
-#### 1. Assignment Brief & Deliverable
+####  Assignment Brief & Deliverable
 
 * 65% of overall marks
 * Deadline: 12pm Friday 15/12/2017 (week 11)
@@ -45,7 +45,7 @@ References
 
 
 ---
-#### 2. Marking Scheme
+####  Marking Scheme
 
  Understanding of HTML, CSS, JavaScript (45%):
 
@@ -106,7 +106,7 @@ References
 [Git commits](https://i.imgur.com/I4tLOx1.png)
 
 
-Handling Responsive Design & Mobile First
+#### Handling Responsive Design & Mobile First
 
 Using a pair of media queries would allow segments of the code to be altered when at specific break points in the code. For example I used min-wdith 500px and min-width 100px. Designed for Tablet and Desktop views.
 
@@ -119,11 +119,11 @@ Furthermore using the meta tag, this would allow the browser to recognize the si
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-Learning & Understanding Markdown 
+#### Learning & Understanding Markdown 
 
 Markdown is totally new to me, this is the first time using it. Although it was tricky at first it allowed me to learn new skills. I also made a imgur account to then directly upload images to imgur. From there i was able to embed the link provided for the markdown file.
 
-API & JSON - Wikipedia
+#### API & JSON - Wikipedia
 The API I used was the google maps api, I was able to change the longitude and get it to focus on the area my band were based in which was birmingham.
 
 
@@ -148,7 +148,8 @@ Validation
 
 
 
-References
+#### References
+
 https://www.w3schools.com/css/
 
 https://validator.w3.org/
