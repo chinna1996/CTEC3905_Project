@@ -155,4 +155,3 @@ https://www.w3schools.com/css/
 https://validator.w3.org/
 https://jigsaw.w3.org/css-validator/
 
-(toggle button doesnt seem to be working, it was working perfectly fine prior to upload, cannot diagnose problem for some reason, all the javascript is under one folder)
