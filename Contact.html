@@ -1,63 +1,38 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initak-scale=1, user-scalable=no" />
-  
-  <title>Rubio</title>
-  <link rel="stylesheet" href="Style.css">
+  <title>RUBIO</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-  <script src="Js/spot.js"></script>
- 
-  
-  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+
 </head>
 
 <body>
-  <nav class="navbar">
-  <img src="images/logo1.png" class="logo1">
-    <span class="open-slide">
-      <a href="#" onclick="openSlideMenu()">
-        <svg width="30" height="30">
-            <path d="M0,5 30,5" stroke="#000" stroke-width="5"/>
-            <path d="M0,14 30,14" stroke="#000" stroke-width="5"/>
-            <path d="M0,23 30,23" stroke="#000" stroke-width="5"/>
-        </svg>
-      </a>
-    </span>  
-  
 
+<header>
+
+  <h1>RUBIO</h1>
+
+  <img src="images/ham.svg" id="menu" alt="menubutton">
+    <nav id="nav-menu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    
   </nav>
 
-  <div id="side-menu" class="side-nav">
-    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
-    <a href="Index.html">Home</a>
-    <a href="About.html">About</a>
-    <a href="Contact.html">Contact</a>
-	<a href="https://www.facebook.com/rubioband/" class="fa fa-facebook"></a>
-    <a href="https://twitter.com/rubioband" class="fa fa-twitter"></a>
-    <a href="https://www.youtube.com/channel/UClnVt3kYnKDFmW7xwOIT2kw" class="fa fa-youtube"></a>
-    </div>
+</header>
 
+<main>
 
-  <script>
-    function openSlideMenu(){
-      document.getElementById('side-menu').style.width = '250px';
-      document.getElementById('main').style.marginLeft = '250px';
-    }
-
-    function closeSlideMenu(){
-      document.getElementById('side-menu').style.width = '0';
-      document.getElementById('main').style.marginLeft = '0';
-    }
-  </script>
-
-
-   <div class="form">
-       <div class="main">
+  <section>
+ 
+       <div class="form">
 	   
-	   <form action="#" method="post" onsubmit="return validate()">
+	   <form action="mailto:P14153009@my365.dmu.ac.uk?subject=Booking" method="post" enctype="text/plain" onsubmit="return validate()">
 	   
 	   <h2> 
 	   Make a booking 
@@ -89,6 +64,10 @@
 	 <label> Contact No: </label>
 	 <input id="name" placeholder="Contact No" type="text">
 	 <br />
+	 
+	 <textarea rows="4" cols="50" name="comment" form="usrform">
+      Enter message for enquiry ...</textarea>
+	  <br/>
 	  
 	 <input type="submit" value="submit">
      </form>
@@ -97,43 +76,32 @@
 
 
 
+  </section>
 
-<div class="widget-container">
-<h1>Check us out on Spotify!</h1>
-<div class="widget">
-  <div class="spotify-embed"><iframe src="https://open.spotify.com/embed?uri=spotify:track:1ljEkewp1VSkLZJRlkegWZ" width="340" height="80" frameborder="0" allowtransparency="true"></iframe></div>
-  <div class="spotify-embed"><iframe src="https://open.spotify.com/embed?uri=spotify:track:12mL4YDS6OXbKmhfQLlRpP" width="340" height="80" frameborder="0" allowtransparency="true"></iframe></div>
-  <div class="spotify-embed"><iframe src="https://open.spotify.com/embed?uri=spotify:track:4lvkF9FTzD7XqhhCeX42Fs" width="340" height="80" frameborder="0" allowtransparency="true"></iframe></div>
-  <div class="spotify-embed"><iframe src="https://open.spotify.com/embed?uri=spotify:track:1bREL2G6ELJUAqaGhvbyvj" width="340" height="80" frameborder="0" allowtransparency="true"></iframe></div>
-</div>
-</div>
-</section>
+  
+  
+  
+  <footer>
+<ul class="social">
 
-<script>
+<li><a href="https://www.facebook.com/rubioband/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+<li><a href="https://twitter.com/rubioband" target="_blank"><i class="fa fa-twitter"></i></a></li>
+<li><a href="https://www.youtube.com/channel/UClnVt3kYnKDFmW7xwOIT2kw" target="_blank"><i class="fa fa-youtube"></i></a></li>
 
+</footer
 
-$(document).ready(function(){
-  $('iframe[src*="embed.spotify.com"]').each( function() {
-    $(this).css('width',$(this).parent(1).css('width'));
-    $(this).attr('src',$(this).attr('src'));
-  });
-});
-$(window).resize(function() {
-  $('iframe[src*="embed.spotify.com"]').each( function() {
-    $(this).css('width',$(this).parent(1).css('width'));
-    $(this).attr('src',$(this).attr('src'));
-  });
-});
+<!-- Second Footer -->
+<footer class="second">
 
-</script>
+<img src="images/logo1.png" class="logo1">
+<p>&copy; Rubioband permission granted - Harinder Singh Matharu </p>
 
+</footer>
 
+  
 
+</main>
+
+<script src="js/scripts.js"></script>
 </body>
-
-<footer>
-         <div class="footer">
-            
-            </div>
-
 </html>

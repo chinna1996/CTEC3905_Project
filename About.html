@@ -1,62 +1,47 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <title>RUBIO</title>
+  <link rel="stylesheet" href="css/styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Rubio</title>
-  <link rel="stylesheet" href="Style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+
 </head>
 
 <body>
 
-  <nav class="navbar">
-  <img src="images/logo1.png" class="logo1">
-   <span class="open-slide">
-      <a href="#" onclick="openSlideMenu()">
-        <svg width="30" height="30"> 
-            <path d="M0,5 30,5" stroke="#000" stroke-width="5"/>
-            <path d="M0,14 30,14" stroke="#000" stroke-width="5"/>
-            <path d="M0,23 30,23" stroke="#000" stroke-width="5"/>
-        </svg>
-      </a>
-    </span>  
-  
+<header>
 
-  </nav>
-	
-	<div id="side-menu" class="side-nav">
-    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
-    <a href="Index.html">Home</a>
-    <a href="About.html">About</a>
-    <a href="Contact.html">Contact</a>
-	<a href="https://www.facebook.com/rubioband/" class="fa fa-facebook"></a>
-    <a href="https://twitter.com/rubioband" class="fa fa-twitter"></a>
-    <a href="https://www.youtube.com/channel/UClnVt3kYnKDFmW7xwOIT2kw" class="fa fa-youtube"></a>
-    </div>
-	
-	<script>
-    function openSlideMenu(){
-      document.getElementById('side-menu').style.width = '250px';
-      document.getElementById('main').style.marginLeft = '250px';
-    }
+  <h1>RUBIO</h1>
 
-    function closeSlideMenu(){
-      document.getElementById('side-menu').style.width = '0';
-      document.getElementById('main').style.marginLeft = '0';
-    }
-  </script>
+   <img src="images/ham.svg" id="menu" alt="menubutton">
+    <nav id="nav-menu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
     
-	<div class="gallery-section">
+  </nav>
+
+</header>
+
+<main>
+
+  <section>
+ <div class="gallery-section">
 	<ul class ="gallgrid">
 	<li>
-	 
-	 <div class="bandm band-1">
+	
+	 <div class="bandm">
 	 <a href="#">
-	 <img src="images/band1.jpg" width="450px" height="560">
+	 <img src="images/band1.jpg" width="170px" height="250">
 	 <h3>
 	 Daniel
+	 <p>
+	 Breif Desc - Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+	 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+	 </p>
 	</h3>
 	
 	</div>
@@ -64,11 +49,15 @@
 	
 	<li>
 	 
-	 <div class="bandm band-2">
+	 <div class="bandm">
 	 <a href="#">
-	 <img src="images/band3.jpg" width="450px" height="460px" >
+	 <img src="images/band3.jpg" width="220px" height="200px" >
 	 <h3>
 	 Steven
+	 <p>
+	 Breif Desc - Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+	 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+	 </p>
 	</h3>
 	
 	</div>
@@ -76,75 +65,101 @@
 	
 	<li>
 	 
-	 <div class="bandm band-3">
+	 <div class="bandm ">
 	 <a href="#">
-	 <img src="images/band4.jpg" width="450px" height="460px">
+	 <img src="images/band4.jpg" width="220px" height="220px">
 	 <h3>
 	 Sam 
+	 <p>
+	 Breif Desc - Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+	 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+	 </p>
 	</h3>
 	
 	</div>
 	</li>
 	
 	<li>
-	 
-	 <div class="bandm band-4">
+
+	 <div class="bandm ">
 	 <a href="#">
-<img src="images/band5.jpg" width="450px" height="560px" >
+     <img src="images/band5.jpg" width="200px" height="220px" >
 	 <h3>
 	 Jags
+	 <p>
+	 Breif Desc - Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+	 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+	 </p>
 	</h3>
 	
 	</div>
 	</li>
 	
 	<li>
-	 
-	 <div class="bandm band-5>
+
+	 <div class="bandm">
 
 	 <a href="#">
-	 <img src="images/band6.jpg" width="450px" height="460px" >
+	 <img src="images/band6.jpg" width="200px" height="220px" >
 	 <h3>
 	 George
+	 <p>
+	 Breif Desc - Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+	 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+	 </p>
 	</h3>
-	
+		 	  
 	</div>
 	</li>
 	</ul>
 	
 	</div>
-  
-	<section>
-    <div id="googleMap" style="width:100%;height:400px;"></div> <!-- identifier for the google maps code -->
+	
+	 <div id="googleMap" style="width:100%;height:400px;"></div> <!-- identifier for the google maps code -->
 
     <script>
       function myMap() {
         var mapProp = {
-          center: new google.maps.LatLng(52.6368778, -1.1397591999999577),
-          zoom: 5,
+          center: new google.maps.LatLng(52.5368778, -2.1397591999999577),
+          zoom: 9,
         };
         var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+
       }
+	  
+	  
+	  
     </script>  <!--the co-ordinates and zoom state where the map will be positioned when the page is loaded-->
 
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVUthFrXOIYoxWNvKFVU89Lz80z8UDTSE&callback=myMap"></script> <!-- The API key supplied by google  -->
 
+
   </section>
 
+  
+  
+  
+  <footer>
+<ul class="social">
+
+<li><a href="https://www.facebook.com/rubioband/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+<li><a href="https://twitter.com/rubioband" target="_blank"><i class="fa fa-twitter"></i></a></li>
+<li><a href="https://www.youtube.com/channel/UClnVt3kYnKDFmW7xwOIT2kw" target="_blank"><i class="fa fa-youtube"></i></a></li>
+
+</footer
+
+<!-- Second Footer -->
+<footer class="second">
+
+<img src="images/logo1.png" class="logo1">
+<p>&copy; Rubioband permission granted - Harinder Singh Matharu </p>
+
+</footer>
 
   
 
+</main>
+
+<script src="js/scripts.js"></script>
 </body>
-<footer>
-         <div class="footer">
-            
-            </div>
-
-
-
-
-
-
-
-
 </html>

@@ -77,8 +77,6 @@ Harinder Matharu
 
 #### 3. Initial Designs (Wireframes Hand Drawn) 
 
-
-
 ---
 #### 4. Git Commits, Development & Branching (Screenshots)
 
@@ -119,3 +117,4 @@ Harinder Matharu
 #### 13. References
 
  
+```
