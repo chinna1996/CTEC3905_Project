@@ -9,19 +9,32 @@ Harinder Matharu
 ---
 ## This README Includes:
 
-1. Brief
-2. Marking Scheme
-3. Initial Designs (Wireframes Hand Drawn)
-4. Git Commits, Development & Branching (Screenshots)
-5. User Testing / Usability
-6. Handling Responsive Design & Mobile First
-7. Intelligent application of Information Architecture and PARC
-8. Understanding Markdown 
-9. API & JSON - Wikipedia
-10. New Learnings
-11. Validation
-12. Flexbox
-13. References
+ Brief
+
+ Marking Scheme
+ 
+Initial Designs (Wireframes Hand Drawn)
+ 
+Git Commits, Development & Branching (Screenshots)
+ 
+User Testing / Usability
+ 
+Handling Responsive Design & Mobile First
+ 
+Intelligent application of Information Architecture 
+and PARC
+ 
+Understanding Markdown 
+
+API & JSON - Wikipedia
+
+New Learnings
+
+Validation
+
+Flexbox
+ 
+References
 
 ---
 #### 1. Assignment Brief & Deliverable
@@ -34,7 +47,7 @@ Harinder Matharu
 ---
 #### 2. Marking Scheme
 
- ### Understanding of HTML, CSS, JavaScript (45%):
+ Understanding of HTML, CSS, JavaScript (45%):
 
 - HTML validates fully
 - CSS does not contain syntax errors
@@ -77,44 +90,69 @@ Harinder Matharu
 
 #### 3. Initial Designs (Wireframes Hand Drawn) 
 
----
-#### 4. Git Commits, Development & Branching (Screenshots)
+[Desktop View Home page ](https://i.imgur.com/S4ZuLb8.jpg?1)
+
+[Desktop View Contact Page](https://i.imgur.com/cQMaRGe.jpg?1)
+
+[Desktop View About Page](https://i.imgur.com/rqZ8GAT.jpg?1)
+
+[Mobile view 300px](https://i.imgur.com/qxkE3Jc.jpg?1)
+
+[Tablet view 500px](https://i.imgur.com/SnzNFHV.jpg?1)
 
 ---
-#### 5. User testing
+#### Git Commits, Development & Branching (Screenshots)
+
+[Git commits](https://i.imgur.com/I4tLOx1.png)
 
 
-#### 6. Intelligent application of Information Architecture and PARC
+####Handling Responsive Design & Mobile First
+
+Using a pair of media queries would allow segments of the code to be altered when at specific break points in the code. For example I used min-wdith 500px and min-width 100px. Designed for Tablet and Desktop views.
+
+@media screen and (min-width: 500px)
+
+@media screen and (min-width: 1000px)
+
+Furthermore using the meta tag, this would allow the browser to recognize the size and render.
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-#### 7. Handling Responsive Design & Mobile First
+####Learning & Understanding Markdown 
 
-#### 8. Learning & Understanding Markdown 
+Markdown is totally new to me, this is the first time using it. Although it was tricky at first it allowed me to learn new skills. I also made a imgur account to then directly upload images to imgur. From there i was able to embed the link provided for the markdown file.
+
+####API & JSON - Wikipedia
+The API I used was the google maps api, I was able to change the longitude and get it to focus on the area my band were based in which was birmingham.
 
 
-#### 9. API & JSON - Wikipedia
-
-
-```
 
 #### Styling the results
 
 
-#### 10. New Learnings
+####New Learnings
+I learnt many new skills: the ability to create transitions and animations using -webkit and -moz transform. Furthermore the javascript code for implementing a toggle feature using an "addEventListener" to control the functionality was new to me. 
 
+Also the looping function created for transitioning the slide show for my home page, similar to the way I have previously used for loops in #C.
 
 
 #### 11. Validation
+[CSS errors](https://i.imgur.com/pdbcGPO.png)
 
+[CSS errors fixed](https://i.imgur.com/6Ki77Ab.png)
 
+[HTML Errors](https://i.imgur.com/drdtR8A.png)
 
-
+[HTML Errors fixed](https://i.imgur.com/wRfYQwv.png)
 
 #### 12. Flex
 
 
 
 #### 13. References
+https://www.w3schools.com/css/
+https://validator.w3.org/
+https://jigsaw.w3.org/css-validator/
 
- 
-```
+(toggle button doesnt seem to be working, it was working perfectly fine prior to upload, cannot diagnose problem for some reason, all the javascript is under one folder)

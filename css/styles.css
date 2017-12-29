@@ -100,7 +100,8 @@ section {
 
 .social ul {
 	background:#E2E1E1;
-	display: inline;
+	display: flex;
+	flex-direction: column;
 	width: 100%;
 }
 
@@ -120,6 +121,7 @@ section {
 	padding: 4% 4% 4% 5%;
 	color: #000;
 	margin-left: -30px; 
+	
 	
 }
 
