@@ -88,7 +88,7 @@ Harinder Matharu
 
 ---
 
-#### 3. Initial Designs (Wireframes Hand Drawn) 
+#### Initial Designs (Wireframes Hand Drawn) 
 
 [Desktop View Home page ](https://i.imgur.com/S4ZuLb8.jpg?1)
 
